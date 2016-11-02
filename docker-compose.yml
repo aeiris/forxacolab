@@ -5,6 +5,8 @@ gogs:
         - "10022:22"
     links:
         - mysql:db
+    volumes:
+        - ../data:/data
 
 mysql:
     image: mysql:latest
