@@ -6,7 +6,7 @@ gogs:
     links:
         - mysql:db
     volumes:
-        - ../data:/data
+        - ./data:/data
 
 mysql:
     image: mysql:latest
