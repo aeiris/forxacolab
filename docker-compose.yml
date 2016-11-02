@@ -1,5 +1,5 @@
 gogs:
-    build: .
+    image: dalareo/forxacolab:latest
     ports:
         - "80:3000"
         - "10022:22"
