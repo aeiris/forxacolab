@@ -1,7 +1,5 @@
-Forxa Co-Lab. Software baseado no proxecto:
+Forxa Co-Lab. Software baseado en [Gogs] (https://github.com/gogits/gogs):
 ===========================================
-Gogs - Go Git Service 
-=====================
 
 ![](https://github.com/gogits/gogs/blob/master/public/img/gogs-large-resize.png?raw=true)
 
