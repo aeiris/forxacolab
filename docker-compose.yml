@@ -13,5 +13,5 @@ mysql:
     ports:
         - "3306:3306"
     environment:
-        MYSQL_ROOT_PASSWORD: ***REMOVED***
-        MYSQL_DATABASE: forxacolab
+        MYSQL_ROOT_PASSWORD: password
+        MYSQL_DATABASE: database
