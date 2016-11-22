@@ -6,6 +6,8 @@
 	<meta name="author" content="{{if .Repository}}{{.Owner.Name}}{{else}}A Forxa do Co-Lab{{end}}" />
 	<meta name="description" content="{{if .Repository}}{{.Repository.Name}}{{if .Repository.Description}} - {{.Repository.Description}}{{end}}{{else}}Explora e colabora no código fonte do Co-Lab{{end}}" />
 	<meta name="keywords" content="go, git, self-hosted, gogs">
+	<meta property="og:title"              content="A Forxa do Co-Lab" />
+	<meta property="og:description"              content="Explora e colabora no código fonte do Co-Lab" />	
 	<meta name="referrer" content="no-referrer" />
 	<meta name="_csrf" content="{{.CsrfToken}}" />
 	<meta name="_suburl" content="{{AppSubUrl}}" />
